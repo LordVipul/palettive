@@ -26,7 +26,3 @@ npm start        # dev server on localhost:5173
 npm run build    # type-check + production build
 npm run preview  # preview production build
 ```
-
-## Roadmap
-
-See [todo.md](todo.md).
