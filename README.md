@@ -1,6 +1,6 @@
 # Palettive
 
-A local, in-browser color palette generator. No backend, no API keys, no network dependencies — everything runs in the browser.
+A local, in-browser color palette generator. No backend, no API keys, no network dependencies — everything runs in the browser. Offline by design: no accounts, no telemetry, saved palettes stay in your localStorage and never leave your machine.
 
 ## Features
 
@@ -13,6 +13,17 @@ A local, in-browser color palette generator. No backend, no API keys, no network
 - **Gradient Generator** — 2-color linear/radial gradients with angle control
 - **Export** — CSS variables, Tailwind config (v3) and `@theme` (v4), hex lists, SVG, JSON
 - **App** — dark/light mode (persisted, respects system preference), localStorage persistence, fully offline
+
+## Keyboard shortcuts
+
+| Keys | Action |
+| --- | --- |
+| `Space` | New random palette |
+| `Ctrl/Cmd + Z` | Undo |
+| `Ctrl/Cmd + Shift + Z` or `Ctrl/Cmd + Y` | Redo |
+| `↑` `↓` `←` `→` | Nudge the selected color on the wheel |
+| `Enter` | Confirm save / rename |
+| `Esc` | Close dialogs |
 
 ## Tech stack
 
